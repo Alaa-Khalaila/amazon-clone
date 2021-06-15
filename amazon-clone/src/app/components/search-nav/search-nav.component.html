@@ -1,0 +1,40 @@
+<nav class="search-nav">
+  <div class="logo">
+    <a href="#"><img src="../../../assets/images/amazon-logo.png" alt="" /></a>
+  </div>
+  <div>
+    <a class="search-nav-item" href="/">
+      <span
+        ><fa-icon [icon]="faMapMarkerAlt" class="location-icon"></fa-icon
+      ></span>
+      <app-search-nav-item
+        upperText="Deliver to"
+        downText="Jordan"
+      ></app-search-nav-item>
+    </a>
+  </div>
+  <app-search-nav-search-input></app-search-nav-search-input>
+  <a class="search-nav-item" href="/">
+    <app-search-nav-item
+      upperText="Hello, Sign in"
+      downText="Account & Lists"
+    ></app-search-nav-item>
+  </a>
+  <a class="search-nav-item" href="/">
+    <app-search-nav-item
+      upperText="Returns"
+      downText="& Orders"
+    ></app-search-nav-item>
+  </a>
+  <div>
+    <a class="search-nav-item" href="/">
+      <div class="cart">
+        <span class="cart-items">0</span>
+        <span
+          ><fa-icon [icon]="faShoppingCart" class="cart-icon"></fa-icon
+        ></span>
+      </div>
+      <app-search-nav-item upperText="_" downText="Cart"></app-search-nav-item>
+    </a>
+  </div>
+</nav>

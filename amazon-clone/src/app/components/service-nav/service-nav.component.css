@@ -1,0 +1,26 @@
+nav {
+  background-color: #232f3e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 7px 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 9px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.faBars {
+  margin-right: 5px;
+}

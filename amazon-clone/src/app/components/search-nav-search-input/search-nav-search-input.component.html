@@ -1,0 +1,11 @@
+<div class="search">
+  <select name="catagories" id="catagories">
+    <option *ngFor="let catagory of catagories">
+      {{ catagory }}
+    </option>
+  </select>
+  <input type="text" />
+  <span>
+    <fa-icon [icon]="faSearch"></fa-icon>
+  </span>
+</div>

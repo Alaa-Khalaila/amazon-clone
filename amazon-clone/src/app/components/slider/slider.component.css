@@ -1,0 +1,25 @@
+section {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.nxtBtn {
+  position: absolute;
+  top: 100px;
+  left: 18px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.backBtn {
+  position: absolute;
+  top: 100px;
+  right: 58px;
+  cursor: pointer;
+  font-size: 40px;
+}

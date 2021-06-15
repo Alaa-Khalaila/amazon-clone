@@ -1,0 +1,31 @@
+.items {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #4168bd;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+header {
+  display: flex;
+  margin: 0 0 10px 0;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+h3 {
+  padding-top: 0;
+}

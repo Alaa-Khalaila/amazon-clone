@@ -1,0 +1,13 @@
+button {
+  padding: 5px;
+  background-color: #f4d37f;
+  width: 100%;
+  border: 1px solid black;
+  color: #3b3425;
+  cursor: pointer;
+}
+
+.card {
+  padding-bottom: 60px;
+  margin-bottom: 30px;
+}

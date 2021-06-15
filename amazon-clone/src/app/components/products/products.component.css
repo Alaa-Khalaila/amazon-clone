@@ -1,0 +1,10 @@
+section {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+section div img {
+  margin: 0 10%;
+}

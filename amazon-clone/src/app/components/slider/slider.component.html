@@ -1,0 +1,13 @@
+<section>
+  <fa-icon
+    [icon]="faChevronLeft"
+    (click)="previusImage()"
+    class="nxtBtn"
+  ></fa-icon>
+  <img src=" {{ currentImageName }}" alt="" />
+  <fa-icon
+    [icon]="faChevronRight"
+    (click)="nextImage()"
+    class="backBtn"
+  ></fa-icon>
+</section>
