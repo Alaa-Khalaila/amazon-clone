@@ -1,26 +1,41 @@
 .search {
-  border: 1px solid black;
   background-color: #fff;
-  border-radius: 5px;
   display: flex;
   margin: 0 10px;
-  outline: orange;
+  border-radius: 50px;
+}
+
+.search:focus-within {
+  outline: 4px solid orange;
+  border: 0;
 }
 
 .search input {
   border: 0;
   outline: 0;
-  width: 1200px;
+  width: 1230px;
+  padding: 15px 10px;
 }
 
 .search span {
   background-color: orange;
   padding: 8px 12px;
   font-size: 14px;
+  border-radius: 0 5px 5px 0;
 }
 
 #catagories {
   outline: 0;
   background-color: rgb(245, 243, 243);
+  border: 0;
+}
+
+select {
+  width: 50px;
+  border-radius: 5px 0 0 5px;
+}
+
+.select:focus-within {
+  outline: 4px solid orange;
   border: 0;
 }

@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardButtonComponent implements OnInit {
   @Input() btnText: string = '';
   @Input() header: string = '';
+  @Input() full: boolean = false;
 
   constructor() {}
 

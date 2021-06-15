@@ -1,4 +1,4 @@
-<nav class="search-nav">
+<nav class="search-nav" id="MyElem">
   <div class="logo">
     <a href="#"><img src="../../../assets/images/amazon-logo.png" alt="" /></a>
   </div>
@@ -29,7 +29,7 @@
   <div>
     <a class="search-nav-item" href="/">
       <div class="cart">
-        <span class="cart-items">0</span>
+        <span class="cart-items">{{ itemsCount }}</span>
         <span
           ><fa-icon [icon]="faShoppingCart" class="cart-icon"></fa-icon
         ></span>

@@ -14,6 +14,9 @@ import { ProductsComponent } from './components/products/products.component';
 import { CardButtonComponent } from './components/card-button/card-button.component';
 import { CardItemsComponent } from './components/card-items/card-items.component';
 import { SliderItemsComponent } from './components/slider-items/slider-items.component';
+import { RandomComponent } from './components/random/random.component';
+import { BackToTopComponent } from './components/back-to-top/back-to-top.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +31,13 @@ import { SliderItemsComponent } from './components/slider-items/slider-items.com
     ProductsComponent,
     CardButtonComponent,
     CardItemsComponent,
-    SliderItemsComponent
+    SliderItemsComponent,
+    RandomComponent,
+    BackToTopComponent,
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    FontAwesomeModule
-  ],
+  imports: [BrowserModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

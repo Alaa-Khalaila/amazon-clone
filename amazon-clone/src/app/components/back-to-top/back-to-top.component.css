@@ -1,0 +1,14 @@
+nav {
+  background-color: #37475a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+nav:hover {
+  background-color: #3f4c5c;
+}

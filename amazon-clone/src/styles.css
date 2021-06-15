@@ -18,9 +18,22 @@ body {
   cursor: pointer;
 }
 
+.card-long {
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .card header {
   font-size: 21px;
   margin-bottom: 10px;
   font-weight: bold;
   color: #0f1111;
+}
+
+.full {
+  width: 100%;
 }

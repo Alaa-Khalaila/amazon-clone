@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
@@ -9,9 +9,11 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./search-nav.component.css'],
 })
 export class SearchNavComponent implements OnInit {
-  constructor() {}
+  @Input() itemsCount: number = 0;
   faMapMarkerAlt = faMapMarkerAlt;
   faShoppingCart = faShoppingCart;
+
+  constructor() {}
 
   ngOnInit(): void {}
 }
