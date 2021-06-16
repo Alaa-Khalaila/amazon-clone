@@ -20,7 +20,11 @@ export class SliderItemsComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  nextImage() {}
+  nextImage() {
+    console.log('next');
+  }
 
-  previusImage() {}
+  previusImage() {
+    console.log('back');
+  }
 }

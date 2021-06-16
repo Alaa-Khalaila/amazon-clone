@@ -1,12 +1,11 @@
 .items {
   display: flex;
-  position: relative;
 }
 
-.items:hover .backBtn {
+.test:hover .backBtn {
   display: block;
 }
-.items:hover .nxtBtn {
+.test:hover .nxtBtn {
   display: block;
 }
 
@@ -45,26 +44,36 @@ h2 {
 
 .nxtBtn {
   position: absolute;
-  top: 50px;
-  left: 8px;
+  top: 100px;
+  left: 0;
   cursor: pointer;
   font-size: 40px;
   color: black;
   display: none;
   background-color: white;
-  padding: 20px;
-  border: 1px solid black;
+  padding: 20px 10px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .backBtn {
   position: absolute;
-  top: 50px;
-  right: 8px;
+  top: 100px;
+  right: 0;
   cursor: pointer;
   font-size: 40px;
   color: black;
   background-color: white;
-  padding: 20px;
-  border: 1px solid black;
+  padding: 20px 10px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   display: none;
+}
+
+.test {
+  width: 77%;
+  position: relative;
+  margin: 0 auto;
 }

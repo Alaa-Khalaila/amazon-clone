@@ -1,23 +1,25 @@
-<section [ngStyle]="{ width: size + '%' }" class="test">
-  <header>
-    <h2>
-      {{ header }}
-    </h2>
-    <span
-      ><a href="">{{ linkType }}</a></span
-    >
-  </header>
-  <div class="items">
+<div class="test">
+  <section>
+    <header>
+      <h2>
+        {{ header }}
+      </h2>
+      <span
+        ><a href="">{{ linkType }}</a></span
+      >
+    </header>
     <fa-icon
       [icon]="faChevronLeft"
       (click)="previusImage()"
       class="nxtBtn"
     ></fa-icon>
-    <img *ngFor="let image of images" src="{{ image }}" alt="" />
+    <div class="items">
+      <img *ngFor="let image of images" src="{{ image }}" alt="" />
+    </div>
     <fa-icon
       [icon]="faChevronRight"
       (click)="nextImage()"
       class="backBtn"
     ></fa-icon>
-  </div>
-</section>
+  </section>
+</div>
