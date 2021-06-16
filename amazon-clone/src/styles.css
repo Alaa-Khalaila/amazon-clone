@@ -39,6 +39,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 .link-card {
@@ -57,6 +58,11 @@ a {
 .list {
   list-style: none;
   padding-left: 0;
+}
+
+.list--inline .list__item {
+  display: inline-block;
+  margin: 0 9px;
 }
 
 .card {

@@ -1,8 +1,3 @@
-.logo img {
-  height: 35px;
-  margin-top: 15px;
-}
-
 .search-nav {
   background-color: var(--color-primary);
   display: flex;
@@ -10,6 +5,17 @@
   padding: 0 20px;
 }
 
+/** Left **/
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+  margin-top: 15px;
+}
 .search-nav a {
   color: #fff;
   text-decoration: none;

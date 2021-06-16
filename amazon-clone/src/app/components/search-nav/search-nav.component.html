@@ -1,8 +1,8 @@
 <nav class="search-nav" id="MyElem">
-  <div class="logo">
-    <a href="#"><img src="../../../assets/images/amazon-logo.png" alt="" /></a>
-  </div>
-  <div>
+  <div class="left">
+    <a href="#"
+      ><img src="../../../assets/images/amazon-logo.png" alt="" class="logo"
+    /></a>
     <a class="search-nav-item" href="/">
       <span
         ><fa-icon [icon]="faMapMarkerAlt" class="location-icon"></fa-icon
@@ -13,7 +13,9 @@
       ></app-search-nav-item>
     </a>
   </div>
+
   <app-search-nav-search-input class="full"></app-search-nav-search-input>
+
   <a class="search-nav-item" href="/">
     <app-search-nav-item
       upperText="Hello, Sign in"
