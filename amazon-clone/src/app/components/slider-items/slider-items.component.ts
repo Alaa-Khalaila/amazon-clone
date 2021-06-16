@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-slider-items',
@@ -11,7 +13,14 @@ export class SliderItemsComponent implements OnInit {
   @Input() images: string[] = [];
   @Input() size: number = 78;
 
+  faChevronRight = faChevronRight;
+  faChevronLeft = faChevronLeft;
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  nextImage() {}
+
+  previusImage() {}
 }

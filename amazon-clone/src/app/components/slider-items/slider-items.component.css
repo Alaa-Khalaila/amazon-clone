@@ -1,5 +1,13 @@
 .items {
   display: flex;
+  position: relative;
+}
+
+.items:hover .backBtn {
+  display: block;
+}
+.items:hover .nxtBtn {
+  display: block;
 }
 
 a {
@@ -32,4 +40,30 @@ section {
 
 h3 {
   padding-top: 0;
+}
+
+.nxtBtn {
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  cursor: pointer;
+  font-size: 40px;
+  color: black;
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.backBtn {
+  position: absolute;
+  top: 50px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 40px;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  display: none;
 }

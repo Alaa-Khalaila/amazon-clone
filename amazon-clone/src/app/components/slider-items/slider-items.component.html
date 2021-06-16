@@ -8,6 +8,16 @@
     >
   </header>
   <div class="items">
+    <fa-icon
+      [icon]="faChevronLeft"
+      (click)="previusImage()"
+      class="nxtBtn"
+    ></fa-icon>
     <img *ngFor="let image of images" src="{{ image }}" alt="" />
+    <fa-icon
+      [icon]="faChevronRight"
+      (click)="nextImage()"
+      class="backBtn"
+    ></fa-icon>
   </div>
 </section>
