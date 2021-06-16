@@ -1,12 +1,62 @@
+:root {
+  --color-primary: #131921;
+  --color-secondry: #232f3e;
+  --color-accent: #febd69;
+  --color-heading: #0f1111;
+  --color-list: #dddddd;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #eaeded;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+/** typography **/
+
+h1,
+h2,
+h3 {
+  color: var(--color-heading);
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+/** Links **/
+
+a {
+  text-decoration: none;
+}
+
+.link-card {
+  color: #4168bd;
+  font-size: 1.3rem;
+  display: block;
+}
+
+.link-card:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/** Lists **/
+
+.list {
+  list-style: none;
+  padding-left: 0;
 }
 
 .card {
@@ -15,7 +65,6 @@ body {
   background-color: #fff;
   margin: 0 45px 10px 0;
   width: 95%;
-  cursor: pointer;
 }
 
 .card-long {
@@ -36,4 +85,8 @@ body {
 
 .full {
   width: 100%;
+}
+
+.almost-full {
+  width: 70%;
 }

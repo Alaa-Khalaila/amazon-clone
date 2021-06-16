@@ -1,5 +1,5 @@
 .search {
-  background-color: #fff;
+  background-color: red;
   display: flex;
   margin: 0 10px;
   border-radius: 50px;
@@ -13,8 +13,8 @@
 .search input {
   border: 0;
   outline: 0;
-  width: 1230px;
-  padding: 15px 10px;
+  width: 100%;
+  padding: 13px 10px;
 }
 
 .search span {
@@ -22,6 +22,8 @@
   padding: 8px 12px;
   font-size: 14px;
   border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
 }
 
 #catagories {

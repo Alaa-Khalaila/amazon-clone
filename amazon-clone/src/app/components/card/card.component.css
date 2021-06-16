@@ -1,17 +1,7 @@
-a {
-  text-decoration: none;
-  color: #4168bd;
-  font-size: 13px;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: red;
-}
-
 img {
   width: 100%;
   height: 300px;
+  cursor: pointer;
 }
 
 footer {
