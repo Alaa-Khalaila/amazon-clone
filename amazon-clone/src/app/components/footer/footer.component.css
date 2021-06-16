@@ -4,13 +4,13 @@ footer {
 }
 
 .footer-content {
-  margin: 0 auto;
+  justify-content: center;
   display: flex;
-  justify-content: space-between;
   color: #fff;
   font-size: 14px;
-  padding: 50px 20vw;
   font-weight: 300;
+  white-space: nowrap;
+  padding: 5rem 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,12 +25,14 @@ footer {
 .footer-buttons {
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
-  width: 30%;
+  width: 60%;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .footer-logo {
   height: 30px;
+  margin-right: 8rem;
 }
 
 .footer-buttons a {
@@ -41,4 +43,8 @@ footer {
   margin-right: 10px;
   border-radius: 3px;
   font-size: 13px;
+}
+
+.footer-list {
+  margin: 0 8rem;
 }
