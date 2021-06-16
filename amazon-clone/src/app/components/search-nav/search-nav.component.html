@@ -16,27 +16,32 @@
 
   <app-search-nav-search-input class="full"></app-search-nav-search-input>
 
-  <a class="search-nav-item" href="/">
-    <app-search-nav-item
-      upperText="Hello, Sign in"
-      downText="Account & Lists"
-    ></app-search-nav-item>
-  </a>
-  <a class="search-nav-item" href="/">
-    <app-search-nav-item
-      upperText="Returns"
-      downText="& Orders"
-    ></app-search-nav-item>
-  </a>
-  <div>
+  <div class="right">
     <a class="search-nav-item" href="/">
-      <div class="cart">
-        <span class="cart-items">{{ itemsCount }}</span>
-        <span
-          ><fa-icon [icon]="faShoppingCart" class="cart-icon"></fa-icon
-        ></span>
-      </div>
-      <app-search-nav-item upperText="_" downText="Cart"></app-search-nav-item>
+      <app-search-nav-item
+        upperText="Hello, Sign in"
+        downText="Account & Lists"
+      ></app-search-nav-item>
     </a>
+    <a class="search-nav-item" href="/">
+      <app-search-nav-item
+        upperText="Returns"
+        downText="& Orders"
+      ></app-search-nav-item>
+    </a>
+    <div>
+      <a class="search-nav-item" href="/">
+        <div class="cart">
+          <span class="cart-items">{{ itemsCount }}</span>
+          <span
+            ><fa-icon [icon]="faShoppingCart" class="cart-icon"></fa-icon
+          ></span>
+        </div>
+        <app-search-nav-item
+          upperText="_"
+          downText="Cart"
+        ></app-search-nav-item>
+      </a>
+    </div>
   </div>
 </nav>

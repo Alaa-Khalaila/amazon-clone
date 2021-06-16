@@ -24,12 +24,22 @@
   border-radius: 0 5px 5px 0;
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.search span:hover {
+  background-color: var(--color-accent-hover);
 }
 
 #catagories {
   outline: 0;
   background-color: rgb(245, 243, 243);
   border: 0;
+  cursor: pointer;
+}
+
+#catagories:hover {
+  background-color: rgb(245, 231, 231);
 }
 
 select {

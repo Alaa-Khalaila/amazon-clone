@@ -26,6 +26,11 @@
   color: #fff;
 }
 
+/** Right **/
+.right {
+  display: flex;
+}
+
 .cart {
   position: relative;
 }
