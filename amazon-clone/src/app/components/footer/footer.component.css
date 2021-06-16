@@ -1,10 +1,10 @@
 footer {
-  background-color: #232f3e;
+  background-color: var(--color-secondry);
   border-bottom: 1px solid #3a4553;
 }
 
 .footer-content {
-  width: 65%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -14,25 +14,8 @@ footer {
   font-weight: 300;
 }
 
-.footer-content ul {
-  list-style: none;
-}
-
-.footer-content ul li {
-  margin-top: 4px;
-}
-
-.footer-content a {
-  color: white;
-  text-decoration: none;
-}
-
 .footer-content a:hover {
   text-decoration: underline;
-}
-
-.footer-content h3 {
-  margin-bottom: 8px;
 }
 
 .footer-buttons {
@@ -42,7 +25,7 @@ footer {
   width: 30%;
 }
 
-.footer-buttons img {
+.footer-logo {
   height: 30px;
 }
 
