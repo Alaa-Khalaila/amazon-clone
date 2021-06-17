@@ -13,6 +13,9 @@ export class SliderItemsComponent implements OnInit {
   @Input() images: string[] = [];
   @Input() size: number = 78;
 
+  click: number = 0;
+  shownImages: string[] = this.images;
+
   faChevronRight = faChevronRight;
   faChevronLeft = faChevronLeft;
 
