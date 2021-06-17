@@ -12,6 +12,7 @@ export class SliderItemsComponent implements OnInit {
   @Input() linkType: string = '';
   @Input() images: string[] = [];
   @Input() size: number = 78;
+  element: HTMLElement | undefined;
 
   click: number = 0;
   shownImages: string[] = this.images;
@@ -24,10 +25,12 @@ export class SliderItemsComponent implements OnInit {
   ngOnInit(): void {}
 
   nextImage() {
-    console.log('next');
+    this.element = document.getElementById(this.images[0]) as HTMLElement;
+    this.element.scrollLeft += 1400;
   }
 
   previusImage() {
-    console.log('back');
+    this.element = document.getElementById(this.images[0]) as HTMLElement;
+    this.element.scrollLeft -= 1000;
   }
 }
