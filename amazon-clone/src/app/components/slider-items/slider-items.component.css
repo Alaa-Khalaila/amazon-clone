@@ -36,6 +36,7 @@ section {
   display: block;
   cursor: pointer;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 h2 {
