@@ -26,11 +26,11 @@ export class SliderItemsComponent implements OnInit {
 
   nextImage() {
     this.element = document.getElementById(this.images[0]) as HTMLElement;
-    this.element.scrollLeft += 1400;
+    this.element.scrollLeft += 900;
   }
 
   previusImage() {
     this.element = document.getElementById(this.images[0]) as HTMLElement;
-    this.element.scrollLeft -= 1000;
+    this.element.scrollLeft -= 900;
   }
 }
